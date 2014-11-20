@@ -1,0 +1,23 @@
+{
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon72.png"
+  },
+  "description": "Ekşi duyuru mesaj bildirim uzantısı.",
+  "icons": {
+	"72": "icon72.png",
+	"128": "icon128.png"
+	},
+  "name": "Ekşi Duyuru Mesajlar",
+  "permissions": [
+    "alarms",
+    "tabs",
+    "webNavigation",
+    "*://*.eksiduyuru.com/*"
+   ],
+  "version": "0.1.0",
+  "manifest_version": 2
+}
